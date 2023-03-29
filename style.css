@@ -1,0 +1,57 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+.contact-section{
+	padding: 15px;
+	margin: 15px;
+	color: white;
+	border-top-left-radius: 13%;
+	font-family: 'Poppins';
+	font-style: normal;
+	line-height: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.bg-blue{
+	background: #6070FF;
+}
+.bg-black{
+	background: #000;
+}
+.form{
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	width: 75%;
+	flex-direction: column;
+}
+.form-item{
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 8px;
+}
+.button{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	color: #6070FF;
+
+}
+.submit-div{
+	width: 100%;
+	display: flex;
+}
+@media (min-width: 375px){
+	body{
+		background-color: red;
+	}
+	.contact-section{
+		width: 75%;
+	}
+}
